@@ -15,26 +15,26 @@ const ContactsPage = () => {
   const healthProffesionls = [
     {
       name: "Dr. Emawaysish Tesema",
-      desc: "Lead Director at MSH",
+      desc: "DR TB Senior Advisor",
       number: "+251 939 929 9283",
     },
   ];
   return (
-    <main className="flex flex-1 flex-col">
-      <section className="h-40 relative bg-black/45">
-        <Image
+    <main className="flex flex-1 flex-col py-8">
+      {/* <section className="relative ">
+         <Image
           src={"/images/contacts.jpg"}
           alt="medical pills"
           fill
           className=" object-cover opacity-80 -z-10 shadow-md"
         />
         <div className="wrapper h-full flex items-center">
-          <h1 className="title_1 text-5xl text-sky-50  p-6 w-full rounded-md">
+          <h1 className="title_1 text-5xl text-gary-900  p-6 w-full rounded-md">
             Contact Us
           </h1>
         </div>
-      </section>
-      <section className="wrapper py-12 flex flex-col gap-1">
+      </section> */}
+      {/* <section className="wrapper py-12 flex flex-col gap-1">
         <h2 className="title_1">Different Doctors on this Field</h2>
         <p>
           Here are Doctors who are keen on working with us to eliminate TB.
@@ -64,16 +64,15 @@ const ContactsPage = () => {
             </div>
           ))}
         </div>
-      </section>
-      <section className="wrapper py-12 flex gap-4">
-        <div className="pr-20 flex flex-col gap-2 bgd rounded-xl shadow-xl p-12 text-gray-200">
-          <h2 className="title_1">Leave a Message</h2>
+      </section> */}
+      <section className="wrapper flex mb-8 gap-12">
+        <div className="flex flex-col gap-2 p-6 w-[60%] flex-1">
+          <h2 className="title_1 text-4xl text-gray-900/80">Leave a Message</h2>
           <p className="opacity-80">
-            Here are Doctors who are keen on working with us to eliminate TB.
-            Contact one of them when ever <em>needed</em>
+            Contact Us if you have any questions regarding TB.
           </p>
         </div>
-        <form className="flex flex-col gap-3 max-w-xl mx-auto w-full p-12 bg-gray-900/10 border-2 border-sky-600/20 rounded-2xl shadow-md">
+        <form className="flex flex-col gap-3 max-w-[32rem] mx-auto w-full p-12 bg-gray-900/10 border-2 border-sky-600/20 rounded-2xl shadow-md ">
           <Input placeholder="Your Name" className="text-base" />
           <Input placeholder="Email Adress" className="text-base" />
           <Textarea
