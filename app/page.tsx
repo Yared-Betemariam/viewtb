@@ -1,113 +1,133 @@
+/* eslint-disable react/no-unescaped-entities */
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+    <main className="flex-1 flex flex-col">
+      <section className=" h-[27rem] relative bg-black/30 ">
         <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+          src={"/images/hero.jpg"}
+          alt="medical pills"
+          fill
+          className=" object-cover opacity-50 shadow-md "
         />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
+        <div className="wrapper h-full flex items-center">
+          <div className="bg-sky-50/80 z-10 rounded-xl text-sky-900 shadow-xl max-w-xl flex gap-1 sm:gap-2 flex-col p-12 px-10">
+            <h1 className="text-2xl sm:text-3xl leading-8 font-bold">
+              Teaching and raising up TB awareness among younger generations
+            </h1>
+            <p className="opacity-80 text-base leading-6">
+              Tuberculosis(TB) is the world's leading infectious killer. Every
+              day, TB claims the lives of about 4500 people and sickens 30,000
+              more.
+            </p>
+            <div className="flex items-center space-x-4">
+              <Link href={"/tuberculosis"}>
+                <Button
+                  size={"lg"}
+                  className="rounded-full mr-auto mt-4 text-base py-6 px-8"
+                >
+                  Learn More
+                </Button>
+              </Link>
+              <a href="#whatistb">
+                <Button
+                  variant={"secondary"}
+                  size={"lg"}
+                  className="rounded-full mr-auto mt-4 text-base py-6 px-8"
+                >
+                  What is TB?
+                </Button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <article className="wrapper py-12">
+        <section className="flex flex-col gap-3" id="whatistb">
+          <h2 className="title_2"> What is Tuberculosis (TB)</h2>
+          <p className="p_1">
+            Tuberculosis is an infectious disease caused by the bacterium called
+            Mycobacterium tuberculosis and rarely by Mycobacterium bovis. These
+            bacteria live inside human cells, mainly in the lungs. TB has many
+            symptoms like cough, chest pain, shortness of breath, fever,
+            sweating, weight loss etc. After infection, some people develop TB
+            quite quickly, while in others the bacteria remain inactive for many
+            years. This difference is because of the difference in immunity
+            between individuals.
           </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
+        </section>
+      </article>
+      <article className="wrapper py-12">
+        <section className="flex flex-col gap-3">
+          <h2 className="title_2"> TB transmission</h2>
+          <p className="p_1">
+            TB bacteria can enter the lungs in airborne droplets. It spread when
+            infected people with the active form of the illness cough, sneeze or
+            talks. The bacteria are carried in the air in tiny droplets of
+            liquid. Transmission occurs when people who are uninfected inhale
+            (breath in) the droplets. These happen rapidly in places where many
+            people are living in crowded conditions such as crowded public
+            transportation, crowded living conditions.
           </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
+          <p className="p_1">
+            The other transmission way is by consuming undercooked meat and
+            unpasteurized milk. This type of transmission mainly occurs for the
+            TB transmitted from infected animals.
           </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+          <p className="p_1">
+            Tuberculosis can be Drug Resistant type because of in adequate TB
+            treatment which could be due to missed medications, taking
+            suboptimal doses, or living or contact with individuals infected by
+            the resistant bacteria.
           </p>
-        </a>
-      </div>
+        </section>
+      </article>
+      <article className="wrapper py-12">
+        <section className="flex flex-col gap-3">
+          <h2 className="title_2">Prevention and control of TB</h2>
+          <p className="p_1">
+            There are drugs and vaccines that are important to treat and prevent
+            this disease
+          </p>
+          <section>
+            <h3 className="title_3">Treatment of TB</h3>
+            <p className="p_2">
+              A person, who shows symptoms relating to TB, should his/her sputum
+              sample tested for the presence of TB bacteria. If a person is
+              positive for TB, then patients should be isolated while they are
+              in the most infectious stage (which is at two weeks). The
+              treatment involves using several drugs to ensure that all the
+              bacteria are killed. The treatment also need about six months.{" "}
+            </p>
+          </section>
+          <section>
+            <h3 className="title_3">Vaccine</h3>
+            <p className="p_2">
+              The only vaccine available for TB is the BCG vaccine, which is
+              derived from animal TB bacteria and protects up to 70–80%of people
+              who receive it. This vaccine is given during early child or infant
+              stage. The effectiveness of the vaccine decreases with in old age.{" "}
+            </p>
+          </section>
+
+          <p className="p_1">
+            TB is relating to reduced immunity of the body, living with HIV and
+            treating HIV infected people help to reduce the incidence of TB.{" "}
+          </p>
+
+          <p className="p_1">
+            Avoid overcrowding; TB is a disease transmitted by inhales the
+            bacteria when infected person cough and sneeze therefore, good
+            ventilation is important to prevent this disease. Avoid eating
+            undercooked meat and avoid drinking unpasteurized or not boiled
+            milk. This is important to prevent TB transmission from animal to
+            human.
+          </p>
+        </section>
+      </article>
     </main>
   );
 }
