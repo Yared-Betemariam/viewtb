@@ -2,10 +2,10 @@
 "use client";
 
 import Search from "./Nav/Search";
-import { useSearchParams } from "next/navigation";
 import topics from "../data/tb.json";
 import Link from "next/link";
 import { Button } from "./ui/button";
+import { useSearchParams } from "next/navigation";
 
 const TB = () => {
   const urlParams = useSearchParams();
