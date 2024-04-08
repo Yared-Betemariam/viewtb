@@ -8,7 +8,7 @@ import MobNav from "../MobNav";
 
 const Nav = () => {
   return (
-    <header className="bgd z-40 h-24 sm:h-32 shadow-md shadow-sky-950/30">
+    <header className="bgd z-40 h-24 sm:h-24 md:h-32 shadow-md shadow-sky-950/30">
       <section className="wrapper h-full flex justify-between items-center ">
         <Logo />
         <div className="flex flex-col gap-3">
