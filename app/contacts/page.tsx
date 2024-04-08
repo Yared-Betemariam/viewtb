@@ -65,8 +65,8 @@ const ContactsPage = () => {
           ))}
         </div>
       </section> */}
-      <section className="wrapper flex mb-8 gap-12">
-        <div className="flex flex-col gap-2 p-6 w-[60%] flex-1">
+      <section className="wrapper flex mb-8 gap-6 md:gap-12 flex-col md:flex-row">
+        <div className="flex flex-col gap-2 p-6 md:w-[60%] flex-1">
           <h2 className="title_1 text-4xl text-gray-900/80">Leave a Message</h2>
           <p className="opacity-80">
             Contact Us if you have any questions regarding TB.

@@ -9,7 +9,7 @@ const Logo = () => {
         alt="ViewTB"
         width={500}
         height={500}
-        className="w-[4.5rem]"
+        className="w-[4.1rem]"
       />
       <div className="flex-col text-xl text-gray-100 hidden md:flex">
         <span className=" font-bold">ViewTB</span>

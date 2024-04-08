@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex-1 flex flex-col">
-      <section className=" h-[27rem] relative bg-black/30 ">
+      <section className=" md:h-[27rem] h-[30rem] relative bg-black/30 ">
         <Image
           src={"/images/hero.jpg"}
           alt="medical pills"
@@ -14,7 +14,7 @@ export default function Home() {
           className=" object-cover opacity-50 shadow-md "
         />
         <div className="wrapper h-full flex items-center">
-          <div className="bg-sky-50/80 z-10 rounded-xl text-sky-900 shadow-xl max-w-xl flex gap-1 sm:gap-2 flex-col p-12 px-10">
+          <div className="bg-sky-50/85 z-10 rounded-xl text-sky-900 shadow-xl md:max-w-xl flex gap-1 sm:gap-2 flex-col p-12 px-10 text-center sm:text-start mx-4">
             <h1 className="text-2xl sm:text-3xl leading-8 font-bold">
               Teaching and raising up TB awareness among younger generations
             </h1>
@@ -23,7 +23,7 @@ export default function Home() {
               day, TB claims the lives of about 4500 people and sickens 30,000
               more.
             </p>
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-4 flex-col sm:flex-row">
               <Link href={"/tuberculosis"}>
                 <Button
                   size={"lg"}

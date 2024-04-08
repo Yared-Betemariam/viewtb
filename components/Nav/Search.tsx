@@ -28,7 +28,7 @@ const Search = () => {
   };
 
   return (
-    <div className="flex items-center">
+    <div className="hidden sm:flex items-center">
       <form className="flex" onSubmit={handleSubmit}>
         <div className="relative flex">
           <Input

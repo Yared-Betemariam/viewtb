@@ -13,7 +13,7 @@ const Footer = () => {
             <span className="text-base opacity-80">contact@viewtb.org</span>
           </div>
         </div>
-        <div className="flex justify-between items-center text-white">
+        <div className="flex justify-between items-center text-white flex-col md:flex-row">
           <span className="opacity-80 font-normal text-base">
             Copyright &copy; {date.getFullYear()}. All Rights Reserved.
           </span>

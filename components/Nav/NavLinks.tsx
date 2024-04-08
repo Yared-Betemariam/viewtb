@@ -34,7 +34,7 @@ export function NavigationMenuMain() {
     },
   ];
   return (
-    <nav className="text-white ">
+    <nav className="text-white hidden sm:flex ml-auto">
       <ul className="flex items-center justify-end space-x-4">
         {navLinks.map((item) => (
           <li key={item.name} className="text-base">
