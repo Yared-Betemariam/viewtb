@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "What is Tuberculosis",
+    "title": "What is Tuberculosis?",
     "content": [
       "Tuberculosis (\"TB\") is an infection that usually affects the lungs. It is not very common in the US. But in other parts of the world, TB is still a serious problem.",
       "The germ that causes TB can travel in the tiny drops of fluid that spray when a person coughs or sneezes. If you are exposed to the germ by breathing in these drops, you can get infected.",
@@ -10,14 +10,14 @@
   },
   {
     "id": 2,
-    "title": "How does TB spread",
+    "title": "How does TB spread?",
     "content": [
       "You can catch TB from anyone who is sick with it. The germ that causes TB can travel in the tiny drops of fluid that spray when a person coughs or sneezes. If you are exposed to the germ by breathing in these drops, you can get infected."
     ]
   },
   {
     "id": 3,
-    "title": "What happens if I am exposed to TB",
+    "title": "What happens if I am exposed to TB?",
     "content": [
       "If you are exposed to the germ that causes TB, your body's infection-fighting system (the \"immune system\") will try to fight it. Sometimes, the immune system is able to kill off the germ, and you will not be infected",
       "Other times, the immune system is able to control the germs but not completely kill them off. When this happens, it is called \"TB infection.\" Doctors used to call this \"latent TB.\" That's because the germ is in your body but does not make you sick. People with TB infection do not always get sick. But sometimes, they get sick later, even after months or years. When this happens, it is called \"TB disease.\" Doctors used to call this \"active TB.\""
@@ -38,7 +38,7 @@
   },
   {
     "id": 5,
-    "title": "Should I see a doctor or nurse",
+    "title": "Should I see a doctor or nurse?",
     "content": [
       "See your doctor or nurse if:",
       [
@@ -50,7 +50,7 @@
   },
   {
     "id": 6,
-    "title": "Is there a test for TB infection",
+    "title": "Is there a test for TB infection?",
     "content": [
       "Yes. There are 2 tests for TB infection: a skin test and a blood test.",
       [
@@ -92,7 +92,7 @@
   },
   {
     "id": 9,
-    "title": "What is TB screening",
+    "title": "What is TB screening?",
     "content": [
       "Screening is a way to check for an infection or disease when a person does not have any symptoms. It is possible to have TB infection without knowing it."
     ]
@@ -164,7 +164,7 @@
   },
   {
     "id": 15,
-    "title": "What do my results mean? ",
+    "title": "What do my results mean?",
     "content": [
       "Your doctor or nurse will tell you when to expect your results, and will contact you with the results. Or if you use an online \"patient portal,\" you might get an alert there when your results are ready.",
       "The results of a skin or blood test can be:",
@@ -199,7 +199,7 @@
   },
   {
     "id": 18,
-    "title": "Who needs evaluation for Tuberculosis ",
+    "title": "Who needs evaluation for Tuberculosis?",
     "content": [
       "Any patient with a cough of ≥2 to 3 weeks' duration (Cough of any duration for those with HIV infection), with at least one additional symptom, including fever, night sweats, weight loss, or hemoptysis"
     ]
@@ -218,7 +218,7 @@
   },
   {
     "id": 20,
-    "title": "Risk factors for developing TB Disease ",
+    "title": "Risk factors for developing TB Disease",
     "content": [
       [
         "Undernutrition",

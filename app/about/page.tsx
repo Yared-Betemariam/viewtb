@@ -30,25 +30,11 @@ const AboutPage = () => {
         <section className="flex flex-col gap-3">
           <h2 className="title_2">What Do We Do?</h2>
           <p className="p_1">
-            Tuberculosis is an infectious disease caused by the bacterium called
-            Mycobacterium tuberculosis and rarely by Mycobacterium bovis. These
-            bacteria live inside human cells, mainly in the lungs. TB has many
-            symptoms like cough, chest pain, shortness of breath, fever,
-            sweating, weight loss etc. After infection, some people develop TB
-            quite quickly, while in others the bacteria remain inactive for many
-            years. This difference is because of the difference in immunity
-            between individuals.
-          </p>
-          <h2 className="title_2">What Launched the idea?</h2>
-          <p className="p_1">
-            Tuberculosis is an infectious disease caused by the bacterium called
-            Mycobacterium tuberculosis and rarely by Mycobacterium bovis. These
-            bacteria live inside human cells, mainly in the lungs. TB has many
-            symptoms like cough, chest pain, shortness of breath, fever,
-            sweating, weight loss etc. After infection, some people develop TB
-            quite quickly, while in others the bacteria remain inactive for many
-            years. This difference is because of the difference in immunity
-            between individuals.
+            We aimed to improve awareness on Tuberculosis, provide health
+            education to empower people regarding several aspects of TB
+            prevention, management and thereby enabling people in accessing the
+            right preventing methods, right treatment, in right time, at the
+            right place.
           </p>
         </section>
       </article>
