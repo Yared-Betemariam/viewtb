@@ -6,8 +6,7 @@ export const screeningTest = (userData: string) => {
   let result = "";
   if (data.items.length <= 0) {
     result = "Screening test are done if you have one of the listed symptoms";
-  }
-  if ((data.items.length = 1)) {
+  } else if ((data.items.length = 1)) {
     result =
       "Your symptoms don't suggest tuberculosis. If concerned, consult a healthcare professional.";
   } else if (data.items.length > 1) {
