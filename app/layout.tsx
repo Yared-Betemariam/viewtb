@@ -7,7 +7,7 @@ import { font } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: {
-    default: "ViewTB - Learn About TuberClosis.",
+    default: "ViewTB - Learn About TuberCulosis.",
     template: "%s | ViewTB",
   },
   description: "Creating awareness and Helping the public understand TB more.",
