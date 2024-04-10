@@ -101,7 +101,7 @@
     @apply font-medium opacity-90;
   }
   .p_2 {
-    @apply font-medium opacity-80;
+    @apply font-medium opacity-80 text-base;
   }
   .bgd {
     @apply bg-gradient-to-br from-primary to-sky-600;

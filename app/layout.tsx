@@ -4,6 +4,7 @@ import "./globals.css";
 import Nav from "@/components/Nav/Nav";
 import Footer from "@/components/Footer";
 import { font } from "@/lib/utils";
+import { Toast, ToastProvider } from "@/components/ui/toast";
 
 export const metadata: Metadata = {
   title: {
@@ -27,9 +28,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={font.className}>
-        <Nav />
-        {children}
-        <Footer />
+        <ToastProvider>
+          <Toast />
+          <Nav />
+          {children}
+          <Footer />
+        </ToastProvider>
       </body>
     </html>
   );

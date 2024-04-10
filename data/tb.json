@@ -196,5 +196,39 @@
         "Unexplained weight loss"
       ]
     ]
+  },
+  {
+    "id": 18,
+    "title": "Who needs evaluation for Tuberculosis ",
+    "content": [
+      "Any patient with a cough of ≥2 to 3 weeks' duration (Cough of any duration for those with HIV infection), with at least one additional symptom, including fever, night sweats, weight loss, or hemoptysis"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Diagnosis of pulmonary tuberculosis",
+    "content": [
+      "General diagnostic approach All patients",
+      [
+        "Clinical suspicion – The diagnosis of pulmonary TB should be suspected in patients with relevant clinical manifestations (which may include cough >2 to 3 weeks' duration, lymphadenopathy, fevers, night sweats, weight loss) and relevant epidemiologic factors (such as history of prior TB infection or disease, known or possible TB exposure, and/or past or present residence in or travel to an area where TB is endemic).",
+        "Definitive diagnosis – The diagnosis of pulmonary TB is definitively established by isolation of M. tuberculosis from a bodily secretion or fluid (eg, culture of sputum, bronchoalveolar lavage, or pleural fluid) or tissue (eg, pleural biopsy or lung biopsy). "
+      ],
+      "Diagnostic tools include sputum acid-fast bacilli (AFB) smear, and Genotypic/ Molecular nucleic acid amplification (NAA) like GeneXpert testing; TB Culture Radiographic studies are important supportive diagnostic tools "
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Risk factors for developing TB Disease ",
+    "content": [
+      [
+        "Undernutrition",
+        "HIV Infection",
+        "Harmful use of alcohol",
+        "Smoking ",
+        "Recent exposure to a person with a case of infectious TB ",
+        "Residents and employees of high-risk congregate settings",
+        "A medical risk factor for TB (including diabetes mellitus, conditions requiring prolonged corticosteroid and other immunosuppressive therapy, chronic renal failure, malignancies, silicosis)."
+      ]
+    ]
   }
 ]
