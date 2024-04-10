@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex-1 flex flex-col">
+    <main className="flex-1 flex flex-col pb-6">
       <section className=" md:h-[27rem] sm:h-[30rem] h-[33rem] relative bg-black/30 ">
         <Image
           src={"/images/hero.jpg"}
@@ -60,7 +60,7 @@ export default function Home() {
           </p>
         </section>
       </article>
-      <article className="wrapper py-12">
+      <article className="wrapper py-2">
         <section className="flex flex-col gap-3">
           <h2 className="title_2"> TB transmission</h2>
           <p className="p_1">
@@ -85,46 +85,71 @@ export default function Home() {
           </p>
         </section>
       </article>
-      <article className="wrapper py-12">
+      <article className="wrapper py-6">
+        <section className="flex flex-col gap-3">
+          <h2 className="title_2">Symptoms of TB</h2>
+          <p className="p_1">Tuberculosis manifests with :-</p>
+          <ul className=" list-disc list-inside">
+            <li>
+              A cough that lasts more than 2- 3 weeks dry or cough with sputum
+              sometimes with blood,
+            </li>
+            <li>Having a high temperature or night sweats, </li>
+            <li>Loss of appetite,</li>
+            <li>Feeling tired or exhausted,</li>
+            <li>Weight loss, and</li>
+            <li>Feeling generally unwell.</li>
+          </ul>
+        </section>
+      </article>
+      <article className="wrapper py-6">
         <section className="flex flex-col gap-3">
           <h2 className="title_2">Prevention and control of TB</h2>
           <p className="p_1">
             There are drugs and vaccines that are important to treat and prevent
-            this disease
+            this disease.
           </p>
           <section>
-            <h3 className="title_3">Treatment of TB</h3>
-            <p className="p_2">
-              A person, who shows symptoms relating to TB, should his/her sputum
-              sample tested for the presence of TB bacteria. If a person is
-              positive for TB, then patients should be isolated while they are
-              in the most infectious stage (which is at two weeks). The
-              treatment involves using several drugs to ensure that all the
-              bacteria are killed. The treatment also need about six months.{" "}
-            </p>
-          </section>
-          <section>
             <h3 className="title_3">Vaccine</h3>
-            <p className="p_2">
+            <p className="p_1">
               The only vaccine available for TB is the BCG vaccine, which is
               derived from animal TB bacteria and protects up to 70–80%of people
               who receive it. This vaccine is given during early child or infant
               stage. The effectiveness of the vaccine decreases with in old age.{" "}
             </p>
           </section>
-
           <p className="p_1">
-            TB is relating to reduced immunity of the body, living with HIV and
-            treating HIV infected people help to reduce the incidence of TB.{" "}
+            TB can be prevented with the following measures.
           </p>
-
+          <ul className=" list-disc list-inside">
+            <li>Avoid overcrowding,</li>
+            <li>Living in well-ventilated environment, </li>
+            <li>Wearing masks,</li>
+            <li>
+              Avoid eating undercooked meat and avoid drinking unpasteurized or
+              not boiled milk,
+            </li>
+            <li>
+              Taking all TB medication prescribed by medical professionals for
+              TB treatment,
+            </li>
+            <li>Early consultation and testing while feeling symptoms, and</li>
+            <li>
+              Early testing and treatment of TB for those with HIV infection{" "}
+            </li>
+          </ul>
+        </section>
+      </article>
+      <article className="wrapper py-6">
+        <section className="flex flex-col gap-3">
+          <h2 className="title_2">Treatment of TB</h2>
           <p className="p_1">
-            Avoid overcrowding; TB is a disease transmitted by inhales the
-            bacteria when infected person cough and sneeze therefore, good
-            ventilation is important to prevent this disease. Avoid eating
-            undercooked meat and avoid drinking unpasteurized or not boiled
-            milk. This is important to prevent TB transmission from animal to
-            human.
+            A person, who shows symptoms relating to TB, should his/her sputum
+            sample tested for the presence of TB bacteria. If a person is
+            positive for TB, then patients should be isolated while they are in
+            the most infectious stage (which is usually the first two weeks).
+            The treatment involves using several drugs to ensure that all the
+            bacteria are killed. The treatment also need about six months.{" "}
           </p>
         </section>
       </article>
