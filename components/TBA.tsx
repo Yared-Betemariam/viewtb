@@ -59,6 +59,9 @@ const TBA = () => {
             <span className="text-base opacity-85">No Search Results.</span>
           )}
         </ul>
+        <span className="text-base opacity-70 px-4 pt-3">
+          ይህ ጽሑፍ የተዘጋጀው በኢትዮጵያ ጤና ሚኒስትር እና አጋሮቹ ነው።
+        </span>
       </section>
     </main>
   );
