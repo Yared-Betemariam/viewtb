@@ -1,0 +1,234 @@
+[
+  {
+    "id": 1,
+    "title": "What is Tuberculosis?",
+    "content": [
+      "Tuberculosis (\"TB\") is an infection that usually affects the lungs. It is not very common in the US. But in other parts of the world, TB is still a serious problem.",
+      "The germ that causes TB can travel in the tiny drops of fluid that spray when a person coughs or sneezes. If you are exposed to the germ by breathing in these drops, you can get infected.",
+      "Doctors use the term \"TB infection\" to mean that the germ is in your body but is not making you sick. Sometimes, it can cause symptoms later, even months or years after getting infected. When this happens, it is called \"TB disease.\""
+    ]
+  },
+  {
+    "id": 2,
+    "title": "How does TB spread?",
+    "content": [
+      "You can catch TB from anyone who is sick with it. The germ that causes TB can travel in the tiny drops of fluid that spray when a person coughs or sneezes. If you are exposed to the germ by breathing in these drops, you can get infected."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "What happens if I am exposed to TB?",
+    "content": [
+      "If you are exposed to the germ that causes TB, your body's infection-fighting system (the \"immune system\") will try to fight it. Sometimes, the immune system is able to kill off the germ, and you will not be infected",
+      "Other times, the immune system is able to control the germs but not completely kill them off. When this happens, it is called \"TB infection.\" Doctors used to call this \"latent TB.\" That's because the germ is in your body but does not make you sick. People with TB infection do not always get sick. But sometimes, they get sick later, even after months or years. When this happens, it is called \"TB disease.\" Doctors used to call this \"active TB.\""
+    ]
+  },
+  {
+    "id": 4,
+    "title": "What are the symptoms of TB disease?",
+    "content": [
+      "The symptoms of TB disease can include:",
+      [
+        "Long-lasting cough",
+        "Fever",
+        "Sweating at night",
+        "Losing weight without trying to"
+      ]
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Should I see a doctor or nurse?",
+    "content": [
+      "See your doctor or nurse if:",
+      [
+        "You have been near someone who was sick with TB disease.",
+        "You have a cough that has lasted longer than 3 or 4 weeks and does not seem to be getting better.",
+        "You have other symptoms of TB disease, such as fever, sweating at night, or unexpected weight loss."
+      ]
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Is there a test for TB infection?",
+    "content": [
+      "Yes. There are 2 tests for TB infection: a skin test and a blood test.",
+      [
+        "Skin test – Your doctor or nurse gives you a shot in the arm. The shot contains tiny pieces of the dead TB germ. Then, 2 or 3 days later, your doctor or nurse looks at the spot where you got the shot to see if there is a bump, and how big the bump is. Only a doctor or nurse can tell whether the bump from a TB test is positive or negative.",
+        "Blood test – A blood test for TB is available in many areas, but not everywhere."
+      ],
+      "Your doctor or nurse will decide which test is best for you. The choice depends on your risk of getting sick with TB disease."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "What if my TB infection test is positive? ",
+    "content": [
+      "If your test is positive, you will probably get more tests to make sure that you do not have TB disease. Then, you will need treatment."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "How is TB treated?",
+    "content": [
+      "The treatment depends on whether you are sick:",
+      [
+        "People who are not sick and have TB infection must take medicine for at least 3 months, and sometimes longer.",
+        "People who are sick with TB disease must take 4 different medicines every day for at least 2 months. After that, some people can only take 2 of the medicines, but all people must keep taking some medicines for another 4 months. That means that treatment for TB disease lasts at least 6 months in total. People need to start with 4 medicines in case 1 or more of them stop working."
+      ],
+      "If your doctor or nurse gives you medicine to treat TB, it is very important that you take all of it. If you do not take all of the medicine, you could get sick with TB, or the medicine could lose its effect. If the medicine loses its effect, the infection can become even harder to treat.",
+      "The medicines used to treat TB can cause liver problems. While you are taking these medicines, do not drink alcohol or take. Tell your doctor or nurse if you have signs of liver problems. These include:",
+      [
+        "Feeling very tired",
+        "Nausea or vomiting",
+        "Having no appetite",
+        "Dark-colored urine",
+        "Jaundice, which is when the skin or white part of the eyes turns yellow",
+        "Belly pain",
+        "Itchy skin"
+      ],
+      "TB is a serious disease. It can lead to death. That's why it's so important that you take treatment very seriously"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "What is TB screening?",
+    "content": [
+      "Screening is a way to check for an infection or disease when a person does not have any symptoms. It is possible to have TB infection without knowing it."
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Who should be screened for TB?",
+    "content": [
+      "Doctors recommend screening for people who are at increased risk of getting TB.",
+      "For example, your doctor might want you to get screened if you are at risk for new infection. This might be the case if you:",
+      [
+        "Were exposed to someone with TB",
+        "Live or work in a homeless shelter or correctional facility",
+        "Use injection drugs",
+        "Have spent a long time in a part of the world where TB is common",
+        "Work in health care and might be around people with TB"
+      ],
+      "They might also want to screen you if you have certain conditions that affect your immune system, like HIV infection or cancer."
+    ]
+  },
+  {
+    "id": 11,
+    "title": "What tests are used to screen for TB?",
+    "content": [
+      "There are 2 ways to screen for TB:",
+      [
+        "Skin test",
+        "Blood test – This is called an \"interferon-gamma release assay,\" or \"IGRA.\""
+      ],
+      "Your doctor can recommend which test to get based on your situation."
+    ]
+  },
+  {
+    "id": 12,
+    "title": "How do I prepare for a TB test?",
+    "content": [
+      [
+        "For the skin test, you do not need to do anything special to prepare.",
+        "For the blood test, you need to get a \"blood draw.\" Your doctor or nurse will tell you where to go for this. It might help to wear a short-sleeve shirt to your appointment."
+      ]
+    ]
+  },
+  {
+    "id": 13,
+    "title": "What happens during a TB skin test?",
+    "content": [
+      "For the skin test:",
+      [
+        "Your doctor or nurse will clean the skin on your lower arm.",
+        "They will give you a shot of fluid in your lower arm. The fluid contains tiny pieces of the dead TB germ.",
+        "Two or 3 days later, you will see your doctor or nurse again. They will look at the spot where you got the shot. They will check to see if there is a bump, and measure how big the bump is. Based on the size of the bump and your situation, the doctor or nurse can tell if your test is positive or negative."
+      ],
+      "If you get a bump on your skin, it will go away on its own in a few days."
+    ]
+  },
+  {
+    "id": 14,
+    "title": "What happens during a TB blood test?",
+    "content": [
+      "For a blood draw, a needle is used to take a small amount of blood from your arm. Collecting the blood only takes a few minutes. The blood is then tested in a lab.",
+      "Tell the person who takes your blood:",
+      [
+        "If you take \"blood thinner\" medicines or if you have a bleeding problem – They will make sure that your bleeding is under control before you leave",
+        "If you have a latex allergy – Some of the supplies used for blood draws might contain latex.",
+        "If you have a preferred arm to use"
+      ],
+      "Most of the time, getting blood taken does not cause problems. You might have a little soreness or bruising where the needle went in."
+    ]
+  },
+  {
+    "id": 15,
+    "title": "What do my results mean?",
+    "content": [
+      "Your doctor or nurse will tell you when to expect your results, and will contact you with the results. Or if you use an online \"patient portal,\" you might get an alert there when your results are ready.",
+      "The results of a skin or blood test can be:",
+      [
+        "Positive – This means that you most likely have been infected with TB. Your doctor will need to do more tests to confirm the result. That's because it is possible to get a \"false-positive\" result. This is when the test comes back positive even though you do not actually have TB.",
+        "Negative – This means that you most likely have not been infected with TB. In some cases, a person can still be infected and get a negative test. This is called a \"false-negative\" result. Depending on your situation, your doctor might repeat the test in a few months."
+      ],
+      "If your test was positive, your doctor or nurse will do more tests to figure out if you have TB infection or TB disease. This is important because the treatment plans are different"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Transmission Methods of TB",
+    "content": [
+      "TB bacteria can enter the lungs in airborne droplets. It spread when infected people with the active form of the illness cough, sneeze or talks. The bacteria are carried in the air in tiny droplets of liquid. Transmission occurs when people who are uninfected inhale (breath in) the droplets. These happen rapidly in places where many people are living in crowded conditions such as crowded public transportation, crowded living conditions.",
+      "The other transmission way is by consuming undercooked meat and unpasteurized milk. This type of transmission mainly occurs for the TB transmitted from infected animals.",
+      "Tuberculosis can be Drug Resistant type because of in adequate TB treatment which could be due to missed medications, taking suboptimal doses, or living or contact with individuals infected by the resistant bacteria."
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Pulmonary Tuberculosis (PTB)",
+    "content": [
+      "A persistent and progressive cough, often accompanied by non-specific systemic symptoms such as fever, night sweats or loss of weight, is the commonest presentation of pulmonary tuberculosis. Symptoms of Pulmonary tuberculosis:",
+      [
+        "Persistent cough for two or more weeks, (cough of any duration for HIV positives)",
+        "Fever for more than 2 weeks",
+        "Night sweats",
+        "Unexplained weight loss"
+      ]
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Who needs evaluation for Tuberculosis?",
+    "content": [
+      "Any patient with a cough of ≥2 to 3 weeks' duration (Cough of any duration for those with HIV infection), with at least one additional symptom, including fever, night sweats, weight loss, or hemoptysis"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Diagnosis of pulmonary tuberculosis",
+    "content": [
+      "General diagnostic approach All patients",
+      [
+        "Clinical suspicion – The diagnosis of pulmonary TB should be suspected in patients with relevant clinical manifestations (which may include cough >2 to 3 weeks' duration, lymphadenopathy, fevers, night sweats, weight loss) and relevant epidemiologic factors (such as history of prior TB infection or disease, known or possible TB exposure, and/or past or present residence in or travel to an area where TB is endemic).",
+        "Definitive diagnosis – The diagnosis of pulmonary TB is definitively established by isolation of M. tuberculosis from a bodily secretion or fluid (eg, culture of sputum, bronchoalveolar lavage, or pleural fluid) or tissue (eg, pleural biopsy or lung biopsy). "
+      ],
+      "Diagnostic tools include sputum acid-fast bacilli (AFB) smear, and Genotypic/ Molecular nucleic acid amplification (NAA) like GeneXpert testing; TB Culture Radiographic studies are important supportive diagnostic tools "
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Risk factors for developing TB Disease",
+    "content": [
+      [
+        "Undernutrition",
+        "HIV Infection",
+        "Harmful use of alcohol",
+        "Smoking ",
+        "Recent exposure to a person with a case of infectious TB ",
+        "Residents and employees of high-risk congregate settings",
+        "A medical risk factor for TB (including diabetes mellitus, conditions requiring prolonged corticosteroid and other immunosuppressive therapy, chronic renal failure, malignancies, silicosis)."
+      ]
+    ]
+  }
+]

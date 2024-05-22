@@ -74,7 +74,7 @@
     @apply bg-gradient-to-br from-sky-700/15 to-cyan-700/15;
   }
   body {
-    @apply max-w-5xl mx-auto shadow-xl text-foreground flex flex-col bg-gray-50/80 text-gray-900 font-medium text-base sm:text-lg min-h-dvh border-x border-gray-900/25;
+    @apply max-w-6xl mx-auto text-foreground flex flex-col bg-gray-50/80 text-gray-900 font-medium text-base sm:text-lg min-h-dvh border-x border-gray-900/25;
   }
   .wroun {
     @apply rounded-t-2xl rounded-b-md;
@@ -102,6 +102,9 @@
   }
   .p_2 {
     @apply font-medium opacity-80 text-base;
+  }
+  .p_3 {
+    @apply font-medium opacity-80 text-sm;
   }
   .bgd {
     @apply bg-gradient-to-br from-primary to-sky-600;

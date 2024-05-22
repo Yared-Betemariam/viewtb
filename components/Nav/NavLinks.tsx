@@ -24,6 +24,7 @@ export function NavigationMenuMain() {
       name: "Contacts",
       path: "/contacts",
     },
+
     {
       name: "Screening Test",
       path: "/test",
@@ -31,6 +32,10 @@ export function NavigationMenuMain() {
     {
       name: "About",
       path: "/about",
+    },
+    {
+      name: "ስለ ቲቢ ተጨማሪ",
+      path: "/amharic",
     },
   ];
   return (

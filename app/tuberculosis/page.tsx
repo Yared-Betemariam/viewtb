@@ -9,12 +9,7 @@ export const metadata: Metadata = {
 const TuberCulosis = () => {
   return (
     <Suspense
-      fallback={
-        <section className="flex flex-col flex-1 p-6 m-6">
-          <h1 className="text-3xl">Loading...</h1>
-          <p className="opacity-70">Getting Things Ready.</p>
-        </section>
-      }
+      fallback={<section className="flex flex-col flex-1 p-6 m-6"></section>}
     >
       <TB />
     </Suspense>

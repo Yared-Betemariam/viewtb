@@ -18,12 +18,12 @@ const Footer = () => {
             Copyright &copy; {date.getFullYear()}. All Rights Reserved.
           </span>
           <div className="space-x-3 opacity-80">
-            <Button variant={"link"} className="p-0 text-white text-base">
+            {/* <Button variant={"link"} className="p-0 text-white text-base">
               Privacy Policy
             </Button>
             <Button variant={"link"} className="p-0 text-white text-base">
               Terms of Services
-            </Button>
+            </Button> */}
           </div>
         </div>
       </section>

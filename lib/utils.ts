@@ -2,6 +2,8 @@ import { type ClassValue, clsx } from "clsx";
 import {
   Inter,
   Montserrat,
+  Noto_Sans,
+  Noto_Sans_Ethiopic,
   Nunito,
   Open_Sans,
   Poppins,
@@ -10,7 +12,7 @@ import {
 } from "next/font/google";
 import { twMerge } from "tailwind-merge";
 
-export const font = Montserrat({
+export const font = Noto_Sans_Ethiopic({
   subsets: ["latin"],
   weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
   // weight: ["100", "300", "400", "500", "700", "900"],
