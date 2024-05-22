@@ -1,4 +1,4 @@
-import data from "../../../data/tb.json";
+import data from "../../../data/tba.json";
 import { BiArrowBack } from "react-icons/bi";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
