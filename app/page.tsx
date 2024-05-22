@@ -23,8 +23,8 @@ export default function Home() {
               {/* Tuberculosis(TB) is the world's leading infectious killer. Every
               day, TB claims the lives of about 4500 people and sickens 30,000
               more. */}
-              ቲቢ በዓለም ላይ ግንባር ቀደም ተላላፊ ገዳይ ነው። በየቀኑ፣ ቲቢ ወደ 4500 የሚጠጉ ሰዎችን ህይወት
-              ይቀጥፋል እና 30,000 ተጨማሪ ሰዎችን ያማል።
+              ቲቢ በዓለም ላይ ግንባር ቀደም ተላላፊ ገዳይ በሽታ ነው። በየቀኑ፣ ቲቢ ወደ 4500 የሚጠጉ ሰዎችን
+              ህይወት ይቀጥፋል, በተጨማሪ ወደ 30,000 የሚጠጉ ሰዎችን ለሕመም ይዳርጋል።
             </p>
             <div className="flex items-center space-x-4 flex-col sm:flex-row">
               <Link href={"/tuberculosis"}>
@@ -33,7 +33,7 @@ export default function Home() {
                   className="rounded-full mr-auto mt-4 text-base py-6 px-8"
                 >
                   {/* Learn More */}
-                  ተጨማሪ እወቅ
+                  ተጨማሪ
                 </Button>
               </Link>
               <a href="#whatistb">
@@ -65,11 +65,11 @@ export default function Home() {
             quite quickly, while in others the bacteria remain inactive for many
             years. This difference is because of the difference in immunity
             between individuals. */}
-            ቲቢ በማይኮባክቲሪየም ቲዩበርክሎዝስ በተባለው ባክቴሪያ እና አልፎ አልፎ በማይኮባክቲሪየም ቦቪስ የሚመጣ
-            ተላላፊ በሽታ ነው። እነዚህ ባክቴሪያዎች በሰዎች ሴሎች ውስጥ ይኖራሉ, በተለይም በሳንባዎች ውስጥ. ቲቢ
-            እንደ ሳል፣ የደረት ሕመም፣ የትንፋሽ ማጠር፣ ትኩሳት፣ ላብ፣ ክብደት መቀነስ ወዘተ ያሉ ምልክቶች
-            አሉት።ከበሽታው በኋላ አንዳንድ ሰዎች የቲቢ በሽታ በፍጥነት ይያዛሉ፣ ሌሎች ደግሞ ባክቴሪያዎቹ ለብዙ አመታት
-            ንቁ አይደሉም። ይህ ልዩነት በግለሰቦች መካከል ባለው የበሽታ መከላከያ ልዩነት ምክንያት ነው.
+            የቲቢ በሽታ በአገራችን በተለምዶ የሳምባ ነቀርሳ የሚባለው በሽታ ሲሆን ቲቢ የተባለውን የአሁኑን ሲያሜ
+            ያገኘው ቲዩበርክሎሲስ ተብሎ ከሚጠራው የበሽታው የእንግሊዘኛው ቋንቋ አህጽሮተ-ቃል ነው፡፡ መንስኤም አልፎ
+            አልፎ እንደሚነገረው ብርድ ወይም ንፋስ ሳይሆን ረቂቅ የሆነና ቀደም ሲል እንደተገለጸው “ማይኮባክቴሪያም
+            ቲዩበርክሎስስ” የተባለ ባክቴሪያ ነው፡፡ ቲቢ “ማይኮባክቴሪያም ቦቪስ” በተባለ ባክተሪያ የተጠቁ የቤት
+            እንስሳት ወተት ሳይፈላ ቢጠጣ ከእንስሳት ወደ ሰው ሊተላለፍ እንደሚችልም ተረጋግጧል፡፡
           </p>
         </section>
       </article>
@@ -84,28 +84,27 @@ export default function Home() {
             (breath in) the droplets. These happen rapidly in places where many
             people are living in crowded conditions such as crowded public
             transportation, crowded living conditions.  */}
-            የቲቢ ባክቴሪያዎች በአየር ወለድ ጠብታዎች ውስጥ ወደ ሳንባዎች ሊገቡ ይችላሉ. በበሽታው የተያዙ ሰዎች
-            በሚስሉበት፣ በሚያስሉበት ወይም በሚናገሩበት ጊዜ ይተላለፋል። ባክቴሪያዎቹ በአየር ውስጥ በትንንሽ ፈሳሽ
-            ጠብታዎች ውስጥ ይወሰዳሉ. መተላለፍ የሚከሰተው ያልተበከሉ ሰዎች ነጠብጣቦችን ወደ ውስጥ ሲተነፍሱ
-            (ሲተነፍሱ) ነው። እነዚህ በፍጥነት የሚከሰቱት ብዙ ሰዎች በተጨናነቀ ሁኔታ ውስጥ በሚኖሩባቸው ቦታዎች
-            ለምሳሌ በተጨናነቀ የሕዝብ መጓጓዣ፣ በተጨናነቀ የኑሮ ሁኔታ ውስጥ ነው።
+            ቲቢ የሚተላለፈው በአብዛኛው በትንፋሽ አማካኝነት ነው፡፡ ይኸውም አንድ በሳምባ ቲቢ የተያዘ ሕመምተኛ
+            በሚስልበት፣ በሚያስነጥስበት፣ በሚተፋበት፣ ወይም በሚናገርበት ወዘተ... ወቅት የቲቢ በሽታ አምጪ ባክቴሪያን
+            የያዙ የአክታ ብናኞች ወደ አየር ስለሚረጩና ብናኞችም በአቅራቢያው ያሉ ሰዎች አየር ወደ ውስጥ በሚተነፍሱበት
+            ጊዜ በቀላሉ ወደ ሳንባው ውስጥ ገብተው ለማጥቃት ዕድል ስለሚያገኙ ነው፡፡
           </p>
-          <p className="p_1">
-            {/* The other transmission way is by consuming undercooked meat and
+          {/* <p className="p_1">
+            The other transmission way is by consuming undercooked meat and
             unpasteurized milk. This type of transmission mainly occurs for the
-            TB transmitted from infected animals. */}
+            TB transmitted from infected animals.
             ሌላው የመተላለፊያ መንገድ ያልበሰለ ስጋ እና ያልተፈጨ ወተትን በመመገብ ነው። የዚህ ዓይነቱ ስርጭት
             በዋነኝነት የሚከሰተው በበሽታው ከተያዙ እንስሳት በሚተላለፈው ቲቢ ነው።
           </p>
           <p className="p_1">
-            {/* Tuberculosis can be Drug Resistant type because of in adequate TB
+            Tuberculosis can be Drug Resistant type because of in adequate TB
             treatment which could be due to missed medications, taking
             suboptimal doses, or living or contact with individuals infected by
-            the resistant bacteria. */}
+            the resistant bacteria.
             ቲዩበርክሎዝ መድሀኒት የሚቋቋም አይነት ሊሆን ይችላል ምክንያቱም በቂ የቲቢ ህክምና ባለበት ምክኒያት ያመለጡ
             መድሃኒቶች፣ ከተሻለ መጠን በላይ በመውሰድ ወይም በተከላካይ ባክቴሪያ ከተያዙ ሰዎች ጋር መኖር ወይም
             ግንኙነት ሊሆን ይችላል።
-          </p>
+          </p> */}
         </section>
       </article>
       <article className="wrapper py-6">
@@ -173,28 +172,24 @@ export default function Home() {
         <div className="flex flex-col gap-3">
           <h2 className="title_2">የቲቢ በሽታ መከላከል እና መቆጣጠር</h2>
           <p className="p_1">
-            ለማከም እና ለመከላከል አስፈላጊ የሆኑ መድሃኒቶች እና ክትባቶች አሉ ይህ በሽታ.
+            ይህንን በሽታ ለመከላከል እና ለማከም አስፈላጊ የሆኑ ክትባት እና መድሃኒቶች አሉ።
           </p>
           <div>
             <h3 className="title_3">ክትባት</h3>
             <p className="p_1">
-              ለቲቢ ያለው ብቸኛው ክትባት የቢሲጂ ክትባት ነው፣ እሱም ነው። ከእንስሳት ቲቢ ባክቴሪያ የተገኘ እና
-              እስከ 70-80% ሰዎችን ይጠብቃል። ማን ይቀበላሉ. ይህ ክትባት በጨቅላ ሕጻናት ወይም በጨቅላ ሕፃናት
-              ውስጥ ይሰጣል ደረጃ. በእርጅና ጊዜ የክትባቱ ውጤታማነት ይቀንሳል።{""}
+              ለቲቢ ያለው ብቸኛው ክትባት የቢሲጂ ክትባት ነው። ከእንስሳት ቲቢ ባክቴሪያ የተገኘ እና እስከ 70-80%
+              ሰዎችን ከበሽታው ይጠብቃል። ይህ ክትባት ለጨቅላ ሕጻናት ይሰጣል። በእርጅና ጊዜ የክትባቱ ውጤታማነት
+              ይቀንሳል።{""}
             </p>
           </div>
-          <p className="p_1">በሚከተሉት እርምጃዎች ቲቢን መከላከል ይቻላል.</p>
+          <p className="p_1">በሚከተሉት መንገዶች ቲቢን መከላከል ይቻላል.</p>
           <ul className=" list-disc list-inside">
             <li>ከመጠን በላይ መጨናነቅን ያስወግዱ፣</li>
-            <li>ጥሩ አየር በሌለው አካባቢ መኖር፣ </li>
+            <li>ጥሩ የአየር እንቅስቃሴ ባለው አካባቢ መኖር፣ </li>
             <li>ጭንብል መልበስ፣</li>
-            <li>
-              በደንብ ያልበሰለ ስጋን ከመብላት ይቆጠቡ እና ያለ pasteurized ወይም ከመጠጣት ይቆጠቡ የተቀቀለ
-              ወተት አይደለም ፣
-            </li>
-            <li>በህክምና ባለሙያዎች የታዘዙትን ሁሉንም የቲቢ መድሃኒቶች መውሰድ የቲቢ ሕክምና,</li>
-            <li>የመጀመሪያ ምክክር እና ምልክቶች እየተሰማዎት እያለ መሞከር እና</li>
-            <li>ኤችአይቪ ኢንፌክሽን ላለባቸው የቲቢ ቅድመ ምርመራ እና ህክምና{""}</li>
+            <li>ያልፈላ ወተት ከመጠጣት መቆጠብ፣</li>
+            <li>በህክምና ባለሙያዎች የታዘዙትን ሁሉንም የቲቢ መድሃኒቶች መውሰድ,</li>
+            <li>ኤችአይቪ ኢንፌክሽን ላለባቸው ሰዎች የቲቢ ቅድመ ምርመራ እና ህክምና መስጠት</li>
           </ul>
         </div>
       </article>
@@ -202,10 +197,11 @@ export default function Home() {
         <div className="flex flex-col gap-3">
           <h2 className="title_2">የቲቢ ሕክምና</h2>
           <p className="p_1">
-            ከቲቢ ጋር የተዛመዱ ምልክቶች የሚታዩበት ሰው አክታውን ማከም አለበት። ለቲቢ ባክቴሪያ መኖር የተረጋገጠ
-            ናሙና። ሰው ከሆነ ለቲቢ አዎንታዊ ነው, ከዚያም ታካሚዎች በሚገቡበት ጊዜ ተለይተው መቀመጥ አለባቸው በጣም
-            ተላላፊው ደረጃ (ብዙውን ጊዜ የመጀመሪያዎቹ ሁለት ሳምንታት ነው). ህክምናው ሁሉንም ለማረጋገጥ ብዙ
-            መድሃኒቶችን መጠቀምን ያካትታል ባክቴሪያዎች ይገደላሉ. ሕክምናው ስድስት ወር አካባቢም ያስፈልገዋል።{""}
+            ከቲቢ ጋር የዛመዱ ምልክቶች የሚታዩበት ሰው አክታውን በፍጥነት ለምርመራ መስጠት አለበት። የቲቢ ባክቴሪያ
+            መኖር የተረጋገጠበት ናሙና ሰውየው በቲቢ በሽታ መያዙን ያሳያል። የቲቢ በሽታ በመጀመሪያዎቹ ሁለት ሳምንታት
+            ውስጥ ከታመመ ወደ ጤነኛ ሰው በከፍተኛ ሁኔታ ይተላለፋል። ከቲቢ በሽታ ሙሉ በሙሉ ፈውስ ለማግኘት ብዙ
+            መድሃኒቶች ለረጅም ጊዜ መወሰድ አለባቸው። መድሃኒት ያልተለማመደ ቲቢ ሕክምና እስከ ስድስት ወር ድረስ
+            ይወስዳል።
           </p>
         </div>
       </article>

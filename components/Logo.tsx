@@ -15,7 +15,7 @@ const Logo = () => {
         <span className=" font-bold">ViewTB</span>
         <p className="opacity-70 max-w-48 text-light text-sm leading-5">
           {/* Understand TB better and impove you health */}
-          ቲቢን በደንብ ይረዱ እና ጤናዎን ያሳድጉ
+          ቲቢን በደንብ ይረዱ እና ጤናዎን ይጠብቁ
         </p>
       </div>
     </Link>
