@@ -27,7 +27,7 @@ export default function Home() {
               ህይወት ይቀጥፋል, በተጨማሪ ወደ 30,000 የሚጠጉ ሰዎችን ለሕመም ይዳርጋል።
             </p>
             <div className="flex items-center space-x-4 flex-col sm:flex-row">
-              <Link href={"/tuberculosis"}>
+              <Link href={"/amharic"}>
                 <Button
                   size={"lg"}
                   className="rounded-full mr-auto mt-4 text-base py-6 px-8"
