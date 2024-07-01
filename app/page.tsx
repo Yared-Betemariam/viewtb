@@ -6,16 +6,16 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex-1 flex flex-col pb-6">
-      <section className=" md:h-[27rem] sm:h-[30rem] h-[33rem] relative bg-black/30 ">
+      <section className="md:h-[26rem] border-b border-gray-900/10 sm:h-[30rem] h-[26rem] relative bg-black/30">
         <Image
           src={"/images/hero.jpg"}
           alt="medical pills"
           fill
-          className=" object-cover opacity-50 shadow-md "
+          className=" object-cover object-center opacity-60"
         />
-        <div className="wrapper h-full flex items-center">
-          <div className="bg-sky-50/65 z-10 rounded-xl text-sky-900 shadow-xl md:max-w-xl flex gap-1 sm:gap-2 flex-col p-8 sm:p-12 px-8 sm:px-10 text-center sm:text-start sm:mx-4">
-            <h1 className="text-2xl sm:text-3xl leading-8 font-bold">
+        <div className="h-full flex items-center">
+          <div className="bg-blue-50/90 z-10 text-sky-900 w-full md:max-w-[34rem] flex gap-5 sm:gap-3 flex-col p-8 sm:p-12 px-8 sm:px-10 text-center sm:text-start pt-12 rounded-xl mx-10">
+            <h1 className="text-3xl sm:text-4xl leading-8 font-bold">
               {/* Teaching and raising up TB awareness among younger generations */}
               ለታዳጊ ወጣቶች እና ተማሪዎች የቲቢ ግንዛቤ መፍጠር
             </h1>
@@ -30,7 +30,7 @@ export default function Home() {
               <Link href={"/amharic"}>
                 <Button
                   size={"lg"}
-                  className="rounded-full mr-auto mt-4 text-base py-6 px-8"
+                  className="rounded-lg mr-auto mt-4 text-base py-6 px-8 drop-shadow-md"
                 >
                   {/* Learn More */}
                   ተጨማሪ
@@ -40,7 +40,7 @@ export default function Home() {
                 <Button
                   variant={"secondary"}
                   size={"lg"}
-                  className="rounded-full mr-auto mt-4 text-base py-6 px-8"
+                  className="rounded-lg mr-auto mt-4 text-base py-6 px-8 drop-shadow-md"
                 >
                   {/* What is TB? */}
                   ቲቢ ምንድን ነው?
@@ -50,7 +50,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <article className="wrapper py-12">
+      <article className="wrapper py-12 flex gap-20">
         <section className="flex flex-col gap-3" id="whatistb">
           <h2 className="title_2">
             {/* What is Tuberculosis (TB) */}
@@ -65,15 +65,13 @@ export default function Home() {
             quite quickly, while in others the bacteria remain inactive for many
             years. This difference is because of the difference in immunity
             between individuals. */}
-            የቲቢ በሽታ በአገራችን በተለምዶ የሳምባ ነቀርሳ የሚባለው በሽታ ሲሆን ቲቢ የተባለውን የአሁኑን ሲያሜ
-            ያገኘው ቲዩበርክሎሲስ ተብሎ ከሚጠራው የበሽታው የእንግሊዘኛው ቋንቋ አህጽሮተ-ቃል ነው፡፡ መንስኤም አልፎ
-            አልፎ እንደሚነገረው ብርድ ወይም ንፋስ ሳይሆን ረቂቅ የሆነና ቀደም ሲል እንደተገለጸው “ማይኮባክቴሪያም
-            ቲዩበርክሎስስ” የተባለ ባክቴሪያ ነው፡፡ ቲቢ “ማይኮባክቴሪያም ቦቪስ” በተባለ ባክተሪያ የተጠቁ የቤት
-            እንስሳት ወተት ሳይፈላ ቢጠጣ ከእንስሳት ወደ ሰው ሊተላለፍ እንደሚችልም ተረጋግጧል፡፡
+            ቲቢ በኢትዮጵያ ውስጥ በጣም ከሚተላለፉ እና ገዳይ በሽታዎች አንዱ ነው። መንስኤም አልፎ አልፎ እንደሚነገረው
+            ብርድ ወይም ንፋስ ሳይሆን ረቂቅ የሆነ ባክቴሪያ ነው፡፡ ቲቢ በበሽታው በተጠቁ የቤት እንስሳት ወተት ሳይፈላ
+            ቢጠጣ ከእንስሳት ወደ ሰው ሊተላለፍ እንደሚችልም ተረጋግጧል፡፡
           </p>
         </section>
       </article>
-      <article className="wrapper py-2">
+      <article className="wrapper py-2 flex gap-20">
         <section className="flex flex-col gap-3">
           <h2 className="title_2">የቲቢ ስርጭት</h2>
           <p className="p_1">
@@ -107,11 +105,11 @@ export default function Home() {
           </p> */}
         </section>
       </article>
-      <article className="wrapper py-6">
+      <article className="wrapper py-6 flex gap-20">
         <section className="flex flex-col gap-3">
           <h2 className="title_2">የቲቢ ምልክቶች</h2>
           <p className="p_1">የቲቢ በሽታ በሚከተሉት ምልክቶች ይታያል-</p>
-          <ul className=" list-disc list-inside">
+          <ul className=" list-disc list-inside space-y-1">
             {/* <li>
               A cough that lasts more than 2- 3 weeks dry or cough with sputum
               sometimes with blood,
@@ -168,13 +166,13 @@ export default function Home() {
           </ul>
         </section>
       </article> */}
-      <article className="wrapper py-6">
-        <div className="flex flex-col gap-3">
+      <article className="wrapper py-6 flex gap-20">
+        <div className="flex flex-col gap-5">
           <h2 className="title_2">የቲቢ በሽታ መከላከል እና መቆጣጠር</h2>
           <p className="p_1">
             ይህንን በሽታ ለመከላከል እና ለማከም አስፈላጊ የሆኑ ክትባት እና መድሃኒቶች አሉ።
           </p>
-          <div>
+          <div className="flex flex-col gap-3">
             <h3 className="title_3">ክትባት</h3>
             <p className="p_1">
               ለቲቢ ያለው ብቸኛው ክትባት የቢሲጂ ክትባት ነው። ከእንስሳት ቲቢ ባክቴሪያ የተገኘ እና እስከ 70-80%
@@ -183,7 +181,7 @@ export default function Home() {
             </p>
           </div>
           <p className="p_1">በሚከተሉት መንገዶች ቲቢን መከላከል ይቻላል.</p>
-          <ul className=" list-disc list-inside">
+          <ul className=" list-disc list-inside space-y-1">
             <li>ከመጠን በላይ መጨናነቅን ያስወግዱ፣</li>
             <li>ጥሩ የአየር እንቅስቃሴ ባለው አካባቢ መኖር፣ </li>
             <li>ጭንብል መልበስ፣</li>
@@ -192,9 +190,16 @@ export default function Home() {
             <li>ኤችአይቪ ኢንፌክሽን ላለባቸው ሰዎች የቲቢ ቅድመ ምርመራ እና ህክምና መስጠት</li>
           </ul>
         </div>
+        <Image
+          src={"/1.jpg"}
+          alt="Image"
+          width={763}
+          height={803}
+          className=" w-96 image my-auto"
+        />
       </article>
       <article className="wrapper py-6">
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-5">
           <h2 className="title_2">የቲቢ ሕክምና</h2>
           <p className="p_1">
             ከቲቢ ጋር የዛመዱ ምልክቶች የሚታዩበት ሰው አክታውን በፍጥነት ለምርመራ መስጠት አለበት። የቲቢ ባክቴሪያ

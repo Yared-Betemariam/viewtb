@@ -23,7 +23,7 @@ const Test = () => {
             <TestForm onSubmit={makeatest} />
           </div>
         </section>
-        <section className="bg-sky-200/15 border md:w-[40%] flex flex-col gap-3 border-gray-900/40 px-12 py-8 rounded-xl shadow-md text-base">
+        <section className="bg-sky-200/15 border md:w-[40%] flex flex-col gap-3 border-gray-900/40 px-12 py-8 rounded-lg shadow-md text-base">
           <h3 className="text-xl font-bold">You Test Resutls</h3>
           {res ? (
             <span>{res}</span>

@@ -80,7 +80,7 @@ const ContactsPage = () => {
             placeholder="About the Topic"
             className="text-base"
           />
-          <Button size={"lg"} className="rounded-full mt-4">
+          <Button size={"lg"} className="rounded-lg mt-4">
             Send
           </Button>
         </form>

@@ -33,11 +33,15 @@ export default function MobNav() {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Button size={"icon"} variant="outline" className="md:hidden ml-auto">
-          <LuMenu />
+        <Button
+          size={"icon"}
+          variant="outline"
+          className="md:hidden ml-auto rounded-lg drop-shadow-md"
+        >
+          <LuMenu size={21} className="opacity-90" />
         </Button>
       </SheetTrigger>
-      <SheetContent>
+      <SheetContent className="max-w-[16rem]">
         <SheetHeader>
           <Logo />
         </SheetHeader>

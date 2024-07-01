@@ -34,8 +34,8 @@ export function NavigationMenuMain() {
       path: "/about",
     },
     {
-      name: "ስለ ቲቢ ተጨማሪ",
-      path: "/amharic",
+      name: "More About TB",
+      path: "/tuberculosis",
     },
   ];
   return (

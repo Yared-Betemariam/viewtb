@@ -5,6 +5,8 @@ import { MdClose, MdSearch } from "react-icons/md";
 import { Input } from "../ui/input";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { CiSearch } from "react-icons/ci";
+import { IoSearch } from "react-icons/io5";
 
 const Search = () => {
   const router = useRouter();
@@ -33,7 +35,7 @@ const Search = () => {
         <div className="relative flex">
           <Input
             placeholder="Search about TB"
-            className=" rounded-none rounded-l-md text-base"
+            className=" rounded-none rounded-l-lg pr-8 pl-4  text-base"
             value={searchText || ""}
             onChange={(e) => setSearchText(e.target.value)}
           />
@@ -47,9 +49,9 @@ const Search = () => {
           )}
         </div>
         <button>
-          <MdSearch
-            size={46}
-            className="h-full px-3  text-white bg-black/25 rounded-r-md border border-sky-900/25 border-l-0"
+          <IoSearch
+            size={47}
+            className="h-full px-3 pr-4  text-white bg-black/20 rounded-r-lg border border-gray-100/15 border-l-0"
           />
         </button>
       </form>

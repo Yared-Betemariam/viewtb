@@ -28,16 +28,18 @@ const TB = () => {
       <section className="wrapper py-12 flex flex-col gap-2">
         <div className="flex items-center justify-between">
           <h1 className="title_2 text-sky-800">Learn More About TB</h1>
-          <Search />
+          {/* <Search /> */}
         </div>
         {search && (
           <div className="flex flex-col">
             <h3 className="opacity-90">Seacrh Results for "{search}"</h3>
             <div className="text-base opacity-80 flex items-center justify-between">
               <p>{filterdTopics.length} results</p>
-              <Button variant={"link"} className="text-gray-900 p-0">
-                Clear Search
-              </Button>
+              <Link href="/tuberculosis">
+                <Button variant={"link"} className="text-gray-900 p-0">
+                  Clear Search
+                </Button>
+              </Link>
             </div>
           </div>
         )}
