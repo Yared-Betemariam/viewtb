@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex-1 flex flex-col pb-6">
+    <main className="flex-1 flex flex-col gap-8 pb-8">
       <section className="md:h-[26rem] border-b border-gray-900/10 sm:h-[30rem] h-[26rem] relative bg-black/30">
         <Image
           src={"/images/hero.jpg"}
@@ -50,7 +50,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <article className="wrapper py-12 flex gap-20">
+      <article className="wrapper flex gap-20">
         <section className="flex flex-col gap-3" id="whatistb">
           <h2 className="title_2">
             {/* What is Tuberculosis (TB) */}
@@ -169,8 +169,8 @@ export default function Home() {
           </ul>
         </section>
       </article> */}
-      <article className="wrapper py-6 flex gap-20">
-        <div className="flex flex-col gap-5">
+      <article className="wrapper py-6 flex flex-col lg:flex-row gap-20">
+        <div className="flex flex-col gap-2">
           <h2 className="title_2">የቲቢ በሽታ መከላከል እና መቆጣጠር</h2>
           <p className="p_1">
             ይህንን በሽታ ለመከላከል እና ለማከም የተለያዩ ክትባት እና መድሃኒቶች አሉ።
@@ -185,7 +185,7 @@ export default function Home() {
           </div>
           <p className="p_1">ቲቢን በሚከተሉት መንገዶች መከላከል እንችላለን፦</p>
           <ul className=" list-disc list-inside space-y-1">
-            <li>ከመጠን በላይ መጨናነቅን ያስወግዱ፣</li>
+            <li>ከመጠን በላይ መጨናነቅን ማሶገድ፣</li>
             <li>ጥሩ የአየር እንቅስቃሴ ባለው አካባቢ መኖር፣ </li>
             <li>ጭንብል መልበስ፣</li>
             <li>ያልፈላ ወተት ከመጠጣት መቆጠብ፣</li>
@@ -198,15 +198,24 @@ export default function Home() {
           alt="Image"
           width={1074}
           height={745}
-          className=" w-[32rem] image my-auto"
+          className="w-[32rem] lg:w-[29rem] xl:w-[32rem] image my-auto mx-auto"
         />
       </article>
-      <article className="wrapper py-6">
-        <div className="flex flex-col gap-5">
-          <h2 className="title_2">የቲቢ ሕክምና</h2>
+      <article className="wrapper py-6 flex flex-col-reverse md:flex-row gap-12">
+        <Image
+          src={"/2.jpg"}
+          alt="Image"
+          width={763}
+          height={730}
+          className="w-72 image my-auto mx-auto"
+        />
+        <div className="flex flex-col gap-5 ">
+          <h2 className="title_2">የቲቢ ምርመራና ሕክም</h2>
           <p className="p_1">
-            ከቲቢ ጋር የዛመዱ ምልክቶች የሚታዩበት ሰው አክታውን በፍጥነት ለምርመራ መስጠት አለበት። የቲቢ ባክቴሪያ
-            መኖር የተረጋገጠበት ናሙና ሰውየው በቲቢ በሽታ መያዙን ያሳያል። የቲቢ በሽታ በመጀመሪያዎቹ ሁለት ሳምንታት
+            ከቲቢ ጋር የተዛመዱ ምልክቶች የሚታይበት ሰው አክታውን በፍጥነት ለምርመራ መስጠት አለበት። የቲቢ ባክቴሪያ
+            በአክታው ወይም በናሙና በምርመራ ከተገኘ የተመረመረው ሰው የተረጋገጠበት ሰው በቲቢ በሽታ መያዙ ይረጋገጣል።
+            ይህንን ለማወቅ በሰዓታት ውስጥ የቲቢ በሽታ መኖሩን የሚያረጋግጥ ፈጣን የመመርመሪኣ ማሽን ኣለ። ይህ ማሽን
+            ጊን ኤክስፐርት ማሽን ይባላል (Gene Xpert Machine)። የቲቢ በሽታ በመጀመሪያዎቹ ሁለት ሳምንታት
             ውስጥ ከታመመ ወደ ጤነኛ ሰው በከፍተኛ ሁኔታ ይተላለፋል። ከቲቢ በሽታ ሙሉ በሙሉ ፈውስ ለማግኘት ብዙ
             መድሃኒቶች ለረጅም ጊዜ መወሰድ አለባቸው። መድሃኒት ያልተለማመደ ቲቢ ሕክምና እስከ ስድስት ወር ድረስ
             ይወስዳል።

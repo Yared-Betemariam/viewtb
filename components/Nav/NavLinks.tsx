@@ -21,13 +21,12 @@ export function NavigationMenuMain() {
       path: "/",
     },
     {
-      name: "Contacts",
-      path: "/contacts",
-    },
-
-    {
       name: "Screening Test",
       path: "/test",
+    },
+    {
+      name: "Contacts",
+      path: "/contacts",
     },
     {
       name: "About",

@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { Mail, Phone } from "lucide-react";
 import { Metadata } from "next";
 import Image from "next/image";
 import { FaPhone } from "react-icons/fa";
@@ -66,24 +67,20 @@ const ContactsPage = () => {
         </div>
       </section> */}
       <section className="wrapper flex mb-8 gap-6 md:gap-12 flex-col md:flex-row">
-        <div className="flex flex-col gap-2 p-6 md:w-[60%] flex-1">
-          <h2 className="title_1 text-4xl text-gray-900/80">Leave a Message</h2>
-          <p className="opacity-80">
-            Contact Us if you have any questions regarding TB.
-          </p>
+        <div className="flex flex-col gap-3 p-6 md:w-[60%] flex-1">
+          <h2 className="title_1 text-4xl text-gray-900/80">Contact us</h2>
+          <p className="opacity-80">ቲቢን በተመለከተ ምንም ኣይነት ጥያቄ ካለቹ መደወል አትርሱ።</p>
+          <div className="flex items-center gap-4 mt-6">
+            <Phone
+              size={60}
+              className="text-gray-700 fill-gray-700 bg-black/5 p-4 rounded-full aspect-square ring-2"
+            />
+            <div className="flex flex-col">
+              <span className="text-sm opacity-80">ስልክ</span>
+              <p>+251 299 299 299</p>
+            </div>
+          </div>
         </div>
-        <form className="flex flex-col gap-3 max-w-[32rem] mx-auto w-full p-12 bg-gray-900/10 border-2 border-sky-600/20 rounded-2xl shadow-md ">
-          <Input placeholder="Your Name" className="text-base" />
-          <Input placeholder="Email Adress" className="text-base" />
-          <Textarea
-            rows={7}
-            placeholder="About the Topic"
-            className="text-base"
-          />
-          <Button size={"lg"} className="rounded-lg mt-4">
-            Send
-          </Button>
-        </form>
       </section>
     </main>
   );
