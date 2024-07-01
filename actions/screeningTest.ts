@@ -5,11 +5,9 @@ export const screeningTest = (userData: string) => {
 
   let result = "";
   if (data.items.length <= 0) {
-    result =
-      "Your symptoms don't suggest tuberculosis. If concerned, consult a healthcare professional.";
+    result = "ምልክቶቹ ቲቢን አይጠቁሙም። የሚያሳስብዎ ከሆነ፥ የጤና ባለሙያ ያማክሩ።";
   } else if (data.items.length >= 1) {
-    result =
-      "You may be exhibiting symptoms of tuberculosis. It is crucial to consult a doctor for further evaluation and testing.";
+    result = "የቲቢ በሽታ ምልክቶች እየታዩብዎ ሊሆን ይችላል። ለበለጠ ምርመራ የጤና ባለሙያ ማማከር አስፈላጊ ነው።";
   }
 
   return result;

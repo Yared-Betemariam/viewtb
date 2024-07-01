@@ -18,24 +18,23 @@ import {
 const items = [
   {
     id: "home",
-    label:
-      "Persistent cough for two or more weeks, (cough of any duration for HIV positives)",
+    label: "ለሁለት ወይም ከዚያ በላይ ሳምንታት የቀጠለ ሳል",
   },
   {
     id: "recents",
-    label: "Night sweats ",
+    label: "ከፍተኛ የሌሊት ላብ",
   },
   {
     id: "applications",
-    label: "Unexplained weight loss ",
+    label: "ከፍተኛ የሰውነት ክብደት መቀነስ",
   },
   {
     id: "desktop",
-    label: "Fever for more than 2 weeks",
+    label: "ለረጅም ጊዜ ትኩሳት",
   },
   {
     id: "downloads",
-    label: "Swelling on the neck",
+    label: "አንገት ላይ የሚወጣ እባጭ",
   },
 ] as const;
 
@@ -108,9 +107,7 @@ const TestForm = ({ onSubmit }: FormType) => {
             </FormItem>
           )}
         />
-        <Button size={"lg"} type="submit">
-          Evaluate
-        </Button>
+        <Button type="submit">መርምር</Button>
       </form>
     </Form>
   );

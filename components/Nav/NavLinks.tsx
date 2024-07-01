@@ -21,7 +21,7 @@ export function NavigationMenuMain() {
       path: "/",
     },
     {
-      name: "Screening Test",
+      name: "የቲቢ ልየታ ምርመራ",
       path: "/test",
     },
     {
