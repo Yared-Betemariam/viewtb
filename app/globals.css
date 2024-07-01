@@ -74,7 +74,7 @@
     @apply bg-gradient-to-br from-sky-200/15 to-slate-200/15;
   }
   body {
-    @apply max-w-6xl mx-auto text-foreground flex flex-col bg-white text-gray-900 font-medium text-base sm:text-lg min-h-dvh border-x border-gray-900/25;
+    @apply max-w-6xl mx-auto text-foreground flex flex-col bg-white text-gray-900 font-medium text-[17px] leading-[1.6rem] min-h-dvh border-x border-gray-900/25;
   }
   .wroun {
     @apply rounded-t-2xl rounded-b-md;

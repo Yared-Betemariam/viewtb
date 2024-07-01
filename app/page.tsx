@@ -82,10 +82,10 @@ export default function Home() {
             (breath in) the droplets. These happen rapidly in places where many
             people are living in crowded conditions such as crowded public
             transportation, crowded living conditions.  */}
-            ቲቢ የሚተላለፈው በአብዛኛው በትንፋሽ አማካኝነት ነው፡፡ ይኸውም አንድ በሳምባ ቲቢ የተያዘ ሕመምተኛ
-            በሚስልበት፣ በሚያስነጥስበት፣ በሚተፋበት፣ ወይም በሚናገርበት ወዘተ... ወቅት የቲቢ በሽታ አምጪ ባክቴሪያን
-            የያዙ የአክታ ብናኞች ወደ አየር ስለሚረጩና ብናኞችም በአቅራቢያው ያሉ ሰዎች አየር ወደ ውስጥ በሚተነፍሱበት
-            ጊዜ በቀላሉ ወደ ሳንባው ውስጥ ገብተው ለማጥቃት ዕድል ስለሚያገኙ ነው፡፡
+            ቲቢ በአብዛኛው የሚተላለፈው በትንፋሽ አማካኝነት ነው፡፡ አንድ በቲቢ የተያዘ ሕመምተኛ በሚስልበት፣
+            በሚያስነጥስበት፣ ወይም በሚናገርበት ወዘተ... ወቅት የቲቢ በሽታ አምጪ ባክቴሪያን ወደ አየር ስለሚበተኑና
+            ባክቴሪያዎቹን በአቅራቢያው ያሉ ሰዎች ወደ ውስጥ አየር በሚተነፍሱበት ጊዜ በቀላሉ ወደ ሳንባ ውስጥ ገብተው
+            ለማጥቃት ዕድል ያገኛሉ፡፡
           </p>
           {/* <p className="p_1">
             The other transmission way is by consuming undercooked meat and
@@ -108,7 +108,7 @@ export default function Home() {
       <article className="wrapper py-6 flex gap-20">
         <section className="flex flex-col gap-3">
           <h2 className="title_2">የቲቢ ምልክቶች</h2>
-          <p className="p_1">የቲቢ በሽታ በሚከተሉት ምልክቶች ይታያል-</p>
+          <p className="p_1">የቲቢ በሽታ በሚከተሉት ምልክቶች ያሳያል-</p>
           <ul className=" list-disc list-inside space-y-1">
             {/* <li>
               A cough that lasts more than 2- 3 weeks dry or cough with sputum
@@ -119,12 +119,15 @@ export default function Home() {
             <li>Feeling tired or exhausted,</li>
             <li>Weight loss, and</li>
             <li>Feeling generally unwell.</li> */}
-            <li>ከ 2-3 ሳምንታት በላይ የሚቆይ ሳል ደረቅ ወይም በአክታ ማሳል አንዳንድ ጊዜ በደም</li>
+            <li>
+              ከ 2-3 ሳምንታት በላይ የሚቆይ ደረቅ ሳል ወይም ኣክታ ያለው ሳል (አንዳንድ ጊዜ በደም ሊኖረው
+              ይችላል)
+            </li>
             <li>ከፍተኛ ሙቀት ወይም የሌሊት ላብ መኖር፣ </li>
             <li>የምግብ ፍላጎት ማጣት፣</li>
-            <li>የድካም ወይም የድካም ስሜት፣</li>
+            <li>የድካም ስሜት መኖር፣</li>
             <li>ክብደት መቀነስ እና</li>
-            <li>በአጠቃላይ መጥፎ ስሜት።</li>
+            <li>በአጠቃላይ የጤነኝነት</li>
           </ul>
         </section>
       </article>
@@ -170,17 +173,17 @@ export default function Home() {
         <div className="flex flex-col gap-5">
           <h2 className="title_2">የቲቢ በሽታ መከላከል እና መቆጣጠር</h2>
           <p className="p_1">
-            ይህንን በሽታ ለመከላከል እና ለማከም አስፈላጊ የሆኑ ክትባት እና መድሃኒቶች አሉ።
+            ይህንን በሽታ ለመከላከል እና ለማከም የተለያዩ ክትባት እና መድሃኒቶች አሉ።
           </p>
           <div className="flex flex-col gap-3">
             <h3 className="title_3">ክትባት</h3>
             <p className="p_1">
-              ለቲቢ ያለው ብቸኛው ክትባት የቢሲጂ ክትባት ነው። ከእንስሳት ቲቢ ባክቴሪያ የተገኘ እና እስከ 70-80%
-              ሰዎችን ከበሽታው ይጠብቃል። ይህ ክትባት ለጨቅላ ሕጻናት ይሰጣል። በእርጅና ጊዜ የክትባቱ ውጤታማነት
-              ይቀንሳል።{""}
+              ለቲቢ ያለው ብቸኛው ክትባት የቢሲጂ ክትባት ነው። ይህ ክትባት እስከ 70-80% ሰዎችን ከበሽታው
+              ይጠብቃል። ይህ ክትባት ለጨቅላ ሕጻናት ይሰጣል። እድሜ እየጨመረ ጊዜ የክትባቱ ውጤታማነት ይቀንሳል።
+              {""}
             </p>
           </div>
-          <p className="p_1">በሚከተሉት መንገዶች ቲቢን መከላከል ይቻላል.</p>
+          <p className="p_1">ቲቢን በሚከተሉት መንገዶች መከላከል እንችላለን፦</p>
           <ul className=" list-disc list-inside space-y-1">
             <li>ከመጠን በላይ መጨናነቅን ያስወግዱ፣</li>
             <li>ጥሩ የአየር እንቅስቃሴ ባለው አካባቢ መኖር፣ </li>
@@ -191,11 +194,11 @@ export default function Home() {
           </ul>
         </div>
         <Image
-          src={"/1.jpg"}
+          src={"/pos.png"}
           alt="Image"
-          width={763}
-          height={803}
-          className=" w-96 image my-auto"
+          width={1074}
+          height={745}
+          className=" w-[32rem] image my-auto"
         />
       </article>
       <article className="wrapper py-6">
